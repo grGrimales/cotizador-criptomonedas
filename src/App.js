@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
-import imagen from "../cryptomonedas.png";
+//import imagen from "./cryptomonedas.png";
 import axios from "axios";
 
 import "./App.css";
@@ -76,7 +76,7 @@ export const App = () => {
   return (
     <Contenedor>
       <div>
-        <Imagen src={imagen} alt="imagen cripto" />
+        <Imagen src={"https://res.cloudinary.com/dcxto1nnl/image/upload/v1642526621/imagenes-paginas/cryptomonedas_s1i5ix.png"} alt="imagen cripto" />
       </div>
       <div>
         <Heading>Cotiza Criptomonedas</Heading>
