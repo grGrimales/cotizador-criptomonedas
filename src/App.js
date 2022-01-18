@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "@emotion/styled";
-import imagen from "./cryptomonedas.png";
+import imagen from "../cryptomonedas.png";
 import axios from "axios";
 
 import "./App.css";
